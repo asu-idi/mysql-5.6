@@ -48,6 +48,8 @@ INCLUDE_DIRECTORIES(
   ${ROCKSDB_ROOT}
   ${ROCKSDB_ROOT}/include
   ${ROCKSDB_ROOT}/third-party/gtest-1.8.1/fused-src
+  ${ROCKSDB_ROOT}/third-party/rest_rpc/include
+  ${ROCKSDB_ROOT}/third-party/rest_rpc/thirdparty/msgpack-c/include
 )
 
 IF(UNIX)
